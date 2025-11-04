@@ -13,11 +13,11 @@ const Hero = () => {
     >
       <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-white" />
       
-      <div className="relative z-10 text-center px-4 animate-fade-in max-w-4xl mx-auto" style={{ marginTop: '-10vh' }}>
+      <div className="relative z-10 text-center px-4 animate-fade-in max-w-4xl mx-auto" style={{ marginTop: '-25vh' }}>
         <Heart className="w-12 h-12 mx-auto mb-8 text-white animate-scale-in drop-shadow-2xl" />
         
         <h1 className="font-script text-4xl md:text-6xl mb-8 text-white drop-shadow-2xl" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>
-          Bem-vindos ao Chá de Panela
+          Bem-vindos ao Nosso Chá de Panela
         </h1>
         
         <div className="flex items-center justify-center gap-4 mb-8">

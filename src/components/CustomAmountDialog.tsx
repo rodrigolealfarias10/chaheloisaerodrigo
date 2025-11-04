@@ -101,15 +101,15 @@ const CustomAmountDialog = ({ open, onOpenChange }: CustomAmountDialogProps) => 
             />
           </div>
           
-          <div className="bg-white border border-border rounded-lg p-6 space-y-4">
+          <div className="bg-background border border-border rounded-lg p-6 space-y-4">
             <Label className="text-sm font-medium block text-foreground">Pagamento via PIX:</Label>
             
             {/* QR Code */}
-            <div className="flex justify-center bg-white p-4 rounded-lg">
+            <div className="flex justify-center bg-background p-4 rounded-lg">
               <img 
                 src={pixQRCode} 
                 alt="QR Code PIX" 
-                className="w-52 h-52 object-contain"
+                className="w-52 h-52 object-contain rounded-lg"
               />
             </div>
             

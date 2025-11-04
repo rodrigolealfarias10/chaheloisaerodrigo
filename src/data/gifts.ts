@@ -27,14 +27,14 @@ export const gifts: GiftItem[] = [
     id: "4",
     name: "Frigideira Antiaderente 28cm",
     price: 120.00,
-    image: "https://images.unsplash.com/photo-1628843528587-22d5d5ba6e0a?w=600&h=600&fit=crop",
+    image: "https://images.unsplash.com/photo-1565299543923-37dd37887442?w=600&h=600&fit=crop",
     category: "Cozinha"
   },
   {
     id: "5",
     name: "Wok Antiaderente 32cm",
     price: 150.00,
-    image: "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=600&h=600&fit=crop",
+    image: "https://images.unsplash.com/photo-1600699935300-61ba2ef48f07?w=600&h=600&fit=crop",
     category: "Cozinha"
   },
   {
@@ -155,7 +155,7 @@ export const gifts: GiftItem[] = [
     id: "22",
     name: "Conjunto de Facas 6 Peças",
     price: 180.00,
-    image: "https://images.unsplash.com/photo-1593618998160-e34014e67546?w=600&h=600&fit=crop",
+    image: "https://images.unsplash.com/photo-1567427361984-0d95e1870774?w=600&h=600&fit=crop",
     category: "Cozinha"
   },
   
@@ -229,7 +229,7 @@ export const gifts: GiftItem[] = [
     id: "32",
     name: "Air Fryer 5L",
     price: 480.00,
-    image: "https://images.unsplash.com/photo-1585515320310-259814833e62?w=600&h=600&fit=crop",
+    image: "https://images.unsplash.com/photo-1624026594294-2c2e16b8f191?w=600&h=600&fit=crop",
     category: "Cozinha"
   },
   {
@@ -243,7 +243,7 @@ export const gifts: GiftItem[] = [
     id: "34",
     name: "Torradeira Elétrica 2 Fatias",
     price: 150.00,
-    image: "https://images.unsplash.com/photo-1585515320310-259814833e62?w=600&h=600&fit=crop",
+    image: "https://images.unsplash.com/photo-1605726595872-5b1ba6c29c10?w=600&h=600&fit=crop",
     category: "Cozinha"
   },
   {
@@ -257,7 +257,7 @@ export const gifts: GiftItem[] = [
     id: "36",
     name: "Mixer Imersão com Acessórios",
     price: 180.00,
-    image: "https://images.unsplash.com/photo-1585515320310-259814833e62?w=600&h=600&fit=crop",
+    image: "https://images.unsplash.com/photo-1619374619175-ba8f0c6c8c0c?w=600&h=600&fit=crop",
     category: "Cozinha"
   },
   
@@ -454,52 +454,8 @@ export const gifts: GiftItem[] = [
     id: "63",
     name: "Lixeira com Tampa 5L",
     price: 55.00,
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&h=600&fit=crop",
+    image: "https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=600&h=600&fit=crop",
     category: "Banheiro"
-  },
-  
-  // Lua de Mel
-  {
-    id: "64",
-    name: "Jantar Romântico para Dois",
-    price: 350.00,
-    image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=600&fit=crop",
-    category: "Lua de Mel"
-  },
-  {
-    id: "65",
-    name: "Passeio de Barco",
-    price: 280.00,
-    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=600&fit=crop",
-    category: "Lua de Mel"
-  },
-  {
-    id: "66",
-    name: "Spa Day para o Casal",
-    price: 450.00,
-    image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&h=600&fit=crop",
-    category: "Lua de Mel"
-  },
-  {
-    id: "67",
-    name: "Sessão de Fotos Profissional",
-    price: 550.00,
-    image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=600&fit=crop",
-    category: "Lua de Mel"
-  },
-  {
-    id: "68",
-    name: "Tour pela Cidade",
-    price: 220.00,
-    image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&h=600&fit=crop",
-    category: "Lua de Mel"
-  },
-  {
-    id: "69",
-    name: "Massagem Relaxante Casal",
-    price: 320.00,
-    image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600&h=600&fit=crop",
-    category: "Lua de Mel"
   }
 ];
 
@@ -508,6 +464,5 @@ export const categories = [
   "Mesa",
   "Sala", 
   "Quarto",
-  "Banheiro",
-  "Lua de Mel"
+  "Banheiro"
 ];
