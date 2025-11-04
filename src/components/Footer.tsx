@@ -4,18 +4,18 @@ const Footer = () => {
   return (
     <footer className="relative w-full py-20 overflow-hidden bg-background">
       <div 
-        className="absolute inset-0 opacity-20"
+        className="absolute inset-0 opacity-30"
         style={{
           backgroundImage: `url(${footerImage})`,
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundPosition: 'center 30%',
         }}
       />
       <div className="relative z-10 text-center px-4">
-        <p className="font-script text-3xl md:text-5xl text-foreground mb-4">
+        <p className="font-script text-4xl md:text-6xl text-foreground mb-2 drop-shadow-lg">
           Com amor,
         </p>
-        <p className="font-script text-4xl md:text-6xl text-foreground">
+        <p className="font-script text-5xl md:text-7xl text-foreground drop-shadow-lg">
           Heloisa & Rodrigo 💕
         </p>
       </div>
