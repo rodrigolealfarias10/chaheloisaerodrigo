@@ -11,22 +11,22 @@ const Hero = () => {
         backgroundPosition: 'center',
       }}
     >
-      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-white/95" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-white" />
       
-      <div className="relative z-10 text-center px-4 animate-fade-in">
-        <Heart className="w-16 h-16 mx-auto mb-6 text-white animate-scale-in drop-shadow-lg" />
+      <div className="relative z-10 text-center px-4 animate-fade-in max-w-4xl mx-auto" style={{ marginTop: '-10vh' }}>
+        <Heart className="w-12 h-12 mx-auto mb-8 text-white animate-scale-in drop-shadow-2xl" />
         
-        <h1 className="font-script text-5xl md:text-7xl mb-6 text-white drop-shadow-lg">
+        <h1 className="font-script text-4xl md:text-6xl mb-8 text-white drop-shadow-2xl" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>
           Bem-vindos ao Chá de Panela
         </h1>
         
-        <div className="flex items-center justify-center gap-4 mb-6">
-          <span className="font-script text-4xl md:text-5xl text-white drop-shadow-lg">Heloisa</span>
-          <Heart className="w-8 h-8 fill-white text-white drop-shadow-lg" />
-          <span className="font-script text-4xl md:text-5xl text-white drop-shadow-lg">Rodrigo</span>
+        <div className="flex items-center justify-center gap-4 mb-8">
+          <span className="font-script text-3xl md:text-5xl text-white drop-shadow-2xl" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>Heloisa</span>
+          <Heart className="w-6 h-6 fill-white text-white drop-shadow-2xl" />
+          <span className="font-script text-3xl md:text-5xl text-white drop-shadow-2xl" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>Rodrigo</span>
         </div>
         
-        <p className="text-lg md:text-xl text-white drop-shadow-lg max-w-2xl mx-auto leading-relaxed">
+        <p className="text-base md:text-lg text-white drop-shadow-2xl max-w-2xl mx-auto leading-relaxed" style={{ textShadow: '0 2px 15px rgba(0,0,0,0.5)' }}>
           Estamos muito felizes em compartilhar esse momento especial com vocês! 
           Confira nossa lista de presentes e nos ajude a começar nossa jornada juntos 💕
         </p>

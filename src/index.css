@@ -8,49 +8,49 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 340 20% 99%;
-    --foreground: 340 30% 20%;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 340 30% 20%;
+    --card-foreground: 0 0% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 340 30% 20%;
+    --popover-foreground: 0 0% 15%;
 
-    --primary: 340 75% 65%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 0 0% 20%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 340 40% 95%;
-    --secondary-foreground: 340 70% 40%;
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 20%;
 
-    --muted: 340 20% 96%;
-    --muted-foreground: 340 15% 50%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
 
-    --accent: 25 90% 70%;
-    --accent-foreground: 340 30% 20%;
+    --accent: 40 40% 88%;
+    --accent-foreground: 0 0% 20%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 340 20% 90%;
-    --input: 340 20% 90%;
-    --ring: 340 75% 65%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 0% 30%;
 
-    --radius: 1rem;
+    --radius: 0.5rem;
     
-    /* Custom wedding theme tokens */
-    --wedding-pink: 340 75% 65%;
-    --wedding-pink-light: 340 60% 85%;
-    --wedding-gold: 25 90% 70%;
-    --wedding-cream: 40 30% 96%;
+    /* Elegant wedding theme tokens */
+    --elegant-dark: 0 0% 20%;
+    --elegant-light: 0 0% 96%;
+    --elegant-gold: 40 40% 70%;
+    --elegant-cream: 40 25% 95%;
     
     /* Gradients */
-    --gradient-romantic: linear-gradient(135deg, hsl(340 75% 65% / 0.1), hsl(25 90% 70% / 0.1));
-    --gradient-overlay: linear-gradient(180deg, hsl(0 0% 100% / 0.95), hsl(340 20% 99% / 0.9));
+    --gradient-elegant: linear-gradient(135deg, hsl(0 0% 98%), hsl(40 25% 95%));
+    --gradient-overlay: linear-gradient(180deg, hsl(0 0% 100% / 0.95), hsl(0 0% 100% / 0.9));
     
     /* Shadows */
-    --shadow-romantic: 0 10px 40px -10px hsl(340 75% 65% / 0.2);
-    --shadow-card: 0 4px 20px -4px hsl(340 30% 20% / 0.08);
+    --shadow-elegant: 0 2px 20px -5px hsl(0 0% 0% / 0.08);
+    --shadow-card: 0 1px 10px -2px hsl(0 0% 0% / 0.06);
     
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

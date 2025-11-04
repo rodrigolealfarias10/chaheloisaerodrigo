@@ -86,27 +86,28 @@ const GiftDialog = ({ gift, open, onOpenChange }: GiftDialogProps) => {
             />
           </div>
           
-          <div className="bg-secondary p-4 rounded-lg space-y-3">
-            <Label className="text-sm font-semibold block">Pagamento via PIX:</Label>
+          <div className="bg-white border border-border rounded-lg p-6 space-y-4">
+            <Label className="text-sm font-medium block text-foreground">Pagamento via PIX:</Label>
             
             {/* QR Code */}
-            <div className="flex justify-center">
+            <div className="flex justify-center bg-white p-4 rounded-lg">
               <img 
                 src={pixQRCode} 
                 alt="QR Code PIX" 
-                className="w-48 h-48 object-contain rounded-lg"
+                className="w-52 h-52 object-contain"
               />
             </div>
             
             {/* PIX Key */}
             <div>
-              <Label className="text-xs text-muted-foreground mb-1 block">Ou copie a chave:</Label>
+              <Label className="text-xs text-muted-foreground mb-2 block">Ou copie a chave PIX:</Label>
               <div className="flex gap-2">
-                <Input value={pixKey} readOnly className="flex-1 text-sm" />
+                <Input value={pixKey} readOnly className="flex-1 text-sm bg-secondary/50" />
                 <Button
                   variant="outline"
                   size="icon"
                   onClick={handleCopyPix}
+                  className="hover:bg-secondary"
                 >
                   <Copy className="w-4 h-4" />
                 </Button>

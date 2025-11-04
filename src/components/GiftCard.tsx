@@ -17,28 +17,29 @@ interface GiftCardProps {
 
 const GiftCard = ({ gift, onSelectGift }: GiftCardProps) => {
   return (
-    <Card className="group overflow-hidden hover:shadow-[var(--shadow-romantic)] transition-all duration-300 hover:-translate-y-1">
-      <div className="aspect-square overflow-hidden">
+    <Card className="group overflow-hidden hover:shadow-[var(--shadow-elegant)] transition-all duration-500 hover:-translate-y-2 border-border/50">
+      <div className="aspect-square overflow-hidden bg-secondary/30">
         <img 
           src={gift.image} 
           alt={gift.name}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
         />
       </div>
       
-      <CardContent className="pt-4">
-        <h3 className="font-semibold text-lg mb-2 text-foreground line-clamp-2">
+      <CardContent className="pt-5 pb-3">
+        <h3 className="font-medium text-base mb-3 text-foreground line-clamp-2 min-h-[3rem]">
           {gift.name}
         </h3>
-        <p className="text-2xl font-bold text-primary">
+        <p className="text-xl font-light text-foreground/80 tracking-wide">
           R$ {gift.price.toFixed(2)}
         </p>
       </CardContent>
       
-      <CardFooter className="flex flex-col gap-2 pt-0">
+      <CardFooter className="flex flex-col gap-2 pt-0 pb-5">
         <Button 
           onClick={() => onSelectGift(gift)}
-          className="w-full bg-primary hover:bg-primary/90"
+          className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-light tracking-wide"
+          size="lg"
         >
           <Gift className="w-4 h-4 mr-2" />
           Presentear com PIX
