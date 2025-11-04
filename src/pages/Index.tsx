@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Hero from "@/components/Hero";
+import Footer from "@/components/Footer";
 import GiftCard, { GiftItem } from "@/components/GiftCard";
 import GiftDialog from "@/components/GiftDialog";
 import CustomAmountDialog from "@/components/CustomAmountDialog";
@@ -80,6 +81,8 @@ const Index = () => {
         open={showCustomDialog}
         onOpenChange={setShowCustomDialog}
       />
+
+      <Footer />
     </div>
   );
 };

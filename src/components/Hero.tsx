@@ -16,22 +16,18 @@ const Hero = () => {
       <div className="relative z-10 text-center px-4 animate-fade-in max-w-4xl mx-auto flex flex-col justify-end" style={{ minHeight: '85vh', paddingBottom: '8vh' }}>
         <Heart className="w-12 h-12 mx-auto mb-8 text-white animate-scale-in drop-shadow-2xl" />
         
-        <h1 className="font-script text-4xl md:text-6xl mb-8 text-white drop-shadow-2xl" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>
+        <h1 className="font-cormorant text-5xl md:text-7xl font-semibold mb-8 text-white drop-shadow-2xl tracking-wide" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>
           Bem-vindos ao Nosso Chá de Panela
         </h1>
         
         <div className="flex items-center justify-center gap-4 mb-8">
-          <span className="font-script text-3xl md:text-5xl text-white drop-shadow-2xl" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>Heloisa</span>
+          <span className="font-cormorant text-4xl md:text-6xl font-light text-white drop-shadow-2xl" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>Heloisa</span>
           <Heart className="w-6 h-6 fill-white text-white drop-shadow-2xl" />
-          <span className="font-script text-3xl md:text-5xl text-white drop-shadow-2xl" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>Rodrigo</span>
+          <span className="font-cormorant text-4xl md:text-6xl font-light text-white drop-shadow-2xl" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>Rodrigo</span>
         </div>
         
-        <p className="text-base md:text-lg text-white drop-shadow-2xl max-w-2xl mx-auto leading-relaxed mb-6" style={{ textShadow: '0 2px 15px rgba(0,0,0,0.5)' }}>
+        <p className="font-cormorant text-lg md:text-xl text-white drop-shadow-2xl max-w-2xl mx-auto leading-relaxed" style={{ textShadow: '0 2px 15px rgba(0,0,0,0.5)' }}>
           Obrigado por estarem conosco nesse momento tão especial. Abaixo confira nossa lista de presentes e nos ajude a darmos o start nessa jornada incrível juntos.
-        </p>
-        
-        <p className="font-script text-xl md:text-2xl text-white drop-shadow-2xl" style={{ textShadow: '0 2px 15px rgba(0,0,0,0.5)' }}>
-          Com amor, Heloisa & Rodrigo 💕
         </p>
       </div>
       
