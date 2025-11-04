@@ -12,6 +12,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Copy, Heart } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
+import pixQRCode from "@/assets/pix-qrcode.jpeg";
 
 interface CustomAmountDialogProps {
   open: boolean;
@@ -100,17 +101,31 @@ const CustomAmountDialog = ({ open, onOpenChange }: CustomAmountDialogProps) => 
             />
           </div>
           
-          <div className="bg-secondary p-4 rounded-lg">
-            <Label className="text-sm font-semibold mb-2 block">Chave PIX:</Label>
-            <div className="flex gap-2">
-              <Input value={pixKey} readOnly className="flex-1" />
-              <Button
-                variant="outline"
-                size="icon"
-                onClick={handleCopyPix}
-              >
-                <Copy className="w-4 h-4" />
-              </Button>
+          <div className="bg-secondary p-4 rounded-lg space-y-3">
+            <Label className="text-sm font-semibold block">Pagamento via PIX:</Label>
+            
+            {/* QR Code */}
+            <div className="flex justify-center">
+              <img 
+                src={pixQRCode} 
+                alt="QR Code PIX" 
+                className="w-48 h-48 object-contain rounded-lg"
+              />
+            </div>
+            
+            {/* PIX Key */}
+            <div>
+              <Label className="text-xs text-muted-foreground mb-1 block">Ou copie a chave:</Label>
+              <div className="flex gap-2">
+                <Input value={pixKey} readOnly className="flex-1 text-sm" />
+                <Button
+                  variant="outline"
+                  size="icon"
+                  onClick={handleCopyPix}
+                >
+                  <Copy className="w-4 h-4" />
+                </Button>
+              </div>
             </div>
           </div>
           
