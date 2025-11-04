@@ -11,9 +11,9 @@ const Hero = () => {
         backgroundPosition: 'center',
       }}
     >
-      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-white" />
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-white" />
       
-      <div className="relative z-10 text-center px-4 animate-fade-in max-w-4xl mx-auto" style={{ marginTop: '-25vh' }}>
+      <div className="relative z-10 text-center px-4 animate-fade-in max-w-4xl mx-auto flex flex-col justify-end" style={{ minHeight: '85vh', paddingBottom: '8vh' }}>
         <Heart className="w-12 h-12 mx-auto mb-8 text-white animate-scale-in drop-shadow-2xl" />
         
         <h1 className="font-script text-4xl md:text-6xl mb-8 text-white drop-shadow-2xl" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>
@@ -26,9 +26,12 @@ const Hero = () => {
           <span className="font-script text-3xl md:text-5xl text-white drop-shadow-2xl" style={{ textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>Rodrigo</span>
         </div>
         
-        <p className="text-base md:text-lg text-white drop-shadow-2xl max-w-2xl mx-auto leading-relaxed" style={{ textShadow: '0 2px 15px rgba(0,0,0,0.5)' }}>
-          Estamos muito felizes em compartilhar esse momento especial com vocês! 
-          Confira nossa lista de presentes e nos ajude a começar nossa jornada juntos 💕
+        <p className="text-base md:text-lg text-white drop-shadow-2xl max-w-2xl mx-auto leading-relaxed mb-6" style={{ textShadow: '0 2px 15px rgba(0,0,0,0.5)' }}>
+          Obrigado por estarem conosco nesse momento tão especial. Abaixo confira nossa lista de presentes e nos ajude a darmos o start nessa jornada incrível juntos.
+        </p>
+        
+        <p className="font-script text-xl md:text-2xl text-white drop-shadow-2xl" style={{ textShadow: '0 2px 15px rgba(0,0,0,0.5)' }}>
+          Com amor, Heloisa & Rodrigo 💕
         </p>
       </div>
       
