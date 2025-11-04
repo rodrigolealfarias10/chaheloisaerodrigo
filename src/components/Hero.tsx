@@ -26,7 +26,7 @@ const Hero = () => {
           <span className="font-cormorant text-4xl md:text-6xl font-light text-white drop-shadow-2xl" style={{ textShadow: '0 6px 24px rgba(0,0,0,0.8)' }}>Rodrigo</span>
         </div>
         
-        <p className="font-cormorant text-lg md:text-2xl font-light text-white drop-shadow-2xl max-w-2xl mx-auto leading-relaxed" style={{ textShadow: '0 6px 24px rgba(0,0,0,0.8)', fontWeight: 300 }}>
+        <p className="font-cormorant text-xl md:text-2xl font-semibold text-white drop-shadow-2xl max-w-2xl mx-auto leading-relaxed" style={{ textShadow: '0 4px 16px rgba(0,0,0,0.9)' }}>
           Obrigado por estarem conosco nesse momento tão especial. Abaixo confira nossa lista de presentes e nos ajude a darmos o start nessa jornada incrível juntos.
         </p>
       </div>
