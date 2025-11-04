@@ -24,8 +24,7 @@ const GiftDialog = ({ gift, open, onOpenChange }: GiftDialogProps) => {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
   
-  // Chave PIX fictícia - substitua pela sua real
-  const pixKey = "seuemail@exemplo.com";
+  const pixKey = "81997473813";
   
   const handleCopyPix = () => {
     navigator.clipboard.writeText(pixKey);

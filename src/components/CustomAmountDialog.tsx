@@ -23,7 +23,7 @@ const CustomAmountDialog = ({ open, onOpenChange }: CustomAmountDialogProps) => 
   const [amount, setAmount] = useState("");
   const [message, setMessage] = useState("");
   
-  const pixKey = "seuemail@exemplo.com";
+  const pixKey = "81997473813";
   
   const handleCopyPix = () => {
     navigator.clipboard.writeText(pixKey);
