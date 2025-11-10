@@ -16,8 +16,6 @@ interface GiftCardProps {
 }
 
 const GiftCard = ({ gift, onSelectGift }: GiftCardProps) => {
-  console.log("GiftCard renderizado:", gift.name);
-  
   return (
     <Card className="group overflow-hidden hover:shadow-[var(--shadow-elegant)] transition-all duration-500 hover:-translate-y-2 border-border/50">
       <div className="aspect-square overflow-hidden bg-secondary/30">
