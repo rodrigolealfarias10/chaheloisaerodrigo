@@ -9,7 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Copy } from "lucide-react";
 import { toast } from "sonner";
 import type { GiftItem } from "./GiftCard";
-import { QRCodeSVG } from "qrcode.react";
+import pixQRCode from "@/assets/pix-qrcode.png";
 
 interface GiftDialogProps {
   gift: GiftItem | null;
@@ -18,21 +18,8 @@ interface GiftDialogProps {
 }
 
 const GiftDialog = ({ gift, open, onOpenChange }: GiftDialogProps) => {
-  // Generate PIX code with dynamic value
-  const generatePixCode = (value: number) => {
-    const baseCode = "00020126580014BR.GOV.BCB.PIX01369862d398-7b43-45dc-adac-655c4b88bc015204000053039865802BR5925Rodrigo Leal de Melo Fari6009SAO PAULO";
-    const valueStr = value.toFixed(2);
-    const valueLength = valueStr.length.toString().padStart(2, '0');
-    const valueField = `54${valueLength}${valueStr}`;
-    
-    // Insert value field before the last field (6304) and recalculate CRC
-    const codeWithoutCRC = baseCode + valueField + "62140510WhvgCfKr476304";
-    
-    // For simplicity, we'll use a fixed CRC placeholder
-    return baseCode + valueField + "62140510WhvgCfKr476304A3B9";
-  };
-  
-  const pixCode = gift ? generatePixCode(gift.price) : "";
+  // Fixed PIX code without dynamic value
+  const pixCode = "00020126580014BR.GOV.BCB.PIX01369862d398-7b43-45dc-adac-655c4b88bc015204000053039865802BR5925Rodrigo Leal de Melo Fari6009SAO PAULO5406280.0062140510WhvgCfKr476304A3B9";
   
   const handleCopyPix = () => {
     navigator.clipboard.writeText(pixCode);
@@ -56,11 +43,10 @@ const GiftDialog = ({ gift, open, onOpenChange }: GiftDialogProps) => {
 
           <div className="space-y-4">
             <div className="flex justify-center p-4 bg-secondary/30 rounded-lg">
-              <QRCodeSVG 
-                value={pixCode}
-                size={220}
-                level="M"
-                includeMargin={false}
+              <img 
+                src={pixQRCode}
+                alt="QR Code PIX"
+                className="w-[220px] h-[220px]"
               />
             </div>
             
