@@ -18,6 +18,8 @@ interface GiftDialogProps {
 }
 
 const GiftDialog = ({ gift, open, onOpenChange }: GiftDialogProps) => {
+  console.log("GiftDialog aberto:", open, "Gift:", gift?.name);
+  
   // Generate PIX code with dynamic value
   const generatePixCode = (value: number) => {
     const baseCode = "00020126580014BR.GOV.BCB.PIX01369862d398-7b43-45dc-adac-655c4b88bc015204000053039865802BR5925Rodrigo Leal de Melo Fari6009SAO PAULO";
