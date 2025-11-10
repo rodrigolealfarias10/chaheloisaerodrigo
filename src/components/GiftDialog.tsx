@@ -19,7 +19,7 @@ interface GiftDialogProps {
 
 const GiftDialog = ({ gift, open, onOpenChange }: GiftDialogProps) => {
   // Fixed PIX code without dynamic value
-  const pixCode = "00020126580014BR.GOV.BCB.PIX01369862d398-7b43-45dc-adac-655c4b88bc015204000053039865802BR5925Rodrigo Leal de Melo Fari6009SAO PAULO5406280.0062140510WhvgCfKr476304A3B9";
+  const pixCode = "00020126580014BR.GOV.BCB.PIX01369862d398-7b43-45dc-adac-655c4b88bc015204000053039865802BR5925Rodrigo Leal de Melo Fari6009SAO PAULO62140510WhvgCfKr476304A3B9";
   
   const handleCopyPix = () => {
     navigator.clipboard.writeText(pixCode);
