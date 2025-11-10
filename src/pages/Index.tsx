@@ -45,7 +45,9 @@ const Index = () => {
           </div>
 
           {categories.map((category) => {
-            const categoryGifts = gifts.filter((gift) => gift.category === category);
+            const categoryGifts = gifts
+              .filter((gift) => gift.category === category)
+              .sort((a, b) => b.price - a.price);
             
             if (categoryGifts.length === 0) return null;
 
