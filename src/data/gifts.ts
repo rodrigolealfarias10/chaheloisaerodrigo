@@ -145,20 +145,6 @@ export const gifts: GiftItem[] = [
     category: "Eletrodomésticos"
   },
   {
-    id: "21",
-    name: "Air Fryer 4L Mondial",
-    price: 350.00,
-    image: "https://images.unsplash.com/photo-1585515320310-259814833e62?w=800&h=800&fit=crop",
-    category: "Eletrodomésticos"
-  },
-  {
-    id: "22",
-    name: "Micro-ondas Electrolux 20L",
-    price: 550.00,
-    image: "https://images.unsplash.com/photo-1585515320310-259814833e62?w=800&h=800&fit=crop",
-    category: "Eletrodomésticos"
-  },
-  {
     id: "23",
     name: "Grill Elétrico Britânia",
     price: 180.00,
@@ -249,6 +235,62 @@ export const gifts: GiftItem[] = [
     name: "Jogo de Potes de Tempero 6 Peças",
     price: 75.00,
     image: "https://images.unsplash.com/photo-1556910110-a5a63dfd393c?w=800&h=800&fit=crop",
+    category: "Utensílios"
+  },
+  {
+    id: "56",
+    name: "Jogo de Bowls 6 Peças",
+    price: 95.00,
+    image: "https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=800&h=800&fit=crop",
+    category: "Utensílios"
+  },
+  {
+    id: "57",
+    name: "Faqueiro Inox 42 Peças",
+    price: 280.00,
+    image: "https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=800&h=800&fit=crop",
+    category: "Utensílios"
+  },
+  {
+    id: "58",
+    name: "Kit Churrasco 12 Peças",
+    price: 185.00,
+    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&h=800&fit=crop",
+    category: "Utensílios"
+  },
+  {
+    id: "59",
+    name: "Porta Temperos Giratório 12 Potes",
+    price: 95.00,
+    image: "https://images.unsplash.com/photo-1556910110-a5a63dfd393c?w=800&h=800&fit=crop",
+    category: "Utensílios"
+  },
+  {
+    id: "60",
+    name: "Panos de Prato Kit 6 Peças",
+    price: 45.00,
+    image: "https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=800&h=800&fit=crop",
+    category: "Utensílios"
+  },
+  {
+    id: "61",
+    name: "Escorredor de Louças Dobrável",
+    price: 85.00,
+    image: "https://images.unsplash.com/photo-1556910110-a5a63dfd393c?w=800&h=800&fit=crop",
+    category: "Utensílios"
+  },
+  {
+    id: "62",
+    name: "Jogo de Tigelas Inox 5 Peças",
+    price: 110.00,
+    image: "https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=800&h=800&fit=crop",
+    category: "Utensílios"
+  },
+  {
+    id: "63",
+    name: "Porta Copos de Bambu 6 Peças",
+    price: 35.00,
+    image: "https://images.unsplash.com/photo-1594502890867-239cca46c815?w=800&h=800&fit=crop",
     category: "Utensílios"
   },
   
